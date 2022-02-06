@@ -1,1 +1,40 @@
 @charset "UTF-8";
+
+
+
+/***** reset CSS *****/
+html,
+body,
+div,
+p,
+img,
+button,
+a,
+select {
+    margin: 0; padding: 0; border: 0;
+}
+/***** reset CSS END *****/
+
+
+
+#camera_wrap {
+    width: 100%; max-width: 350px; height: 200px; margin: 50px auto; border: 2px solid #ddd; border-radius: 5px;
+}
+
+
+
+.button_wrap {
+    display: flex; justify-content: center; align-items: center;
+}
+
+.button_wrap button {
+    color: #FFF; background-color: #AAA; border-radius: 5px; padding: 10px;
+}
+
+.button_wrap .start_btn {
+    margin-right: 10px;
+}
+
+
+
+
