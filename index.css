@@ -13,12 +13,16 @@ a,
 select {
     margin: 0; padding: 0; border: 0;
 }
+
+button {
+    cursor: pointer;
+}
 /***** reset CSS END *****/
 
 
 
 #camera_wrap {
-    width: 100%; max-width: 350px; height: 200px; margin: 50px auto; border: 2px solid #ddd; border-radius: 5px;
+    width: 100%; max-width: 350px; height: 200px; margin: 50px auto; border: 2px solid #ddd; border-radius: 5px; overflow: hidden;
 }
 
 
@@ -36,5 +40,7 @@ select {
 }
 
 
-
+#captureCanvas {
+    display: block; width: 500px; margin: 50px auto; border: 2px solid #ddd; border-radius: 5px;
+}
 
