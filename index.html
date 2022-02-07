@@ -9,14 +9,16 @@
 
 <div id="camera_wrap">
 
+    <video autoplay muted playsinline id="camera_render" width="100%"></video>
 
 </div>
 
 <div class="button_wrap">
-    <button class="start_btn">카메라 시작</button>
-    <button class="capture_btn">카메라 캡처</button>
+    <button class="start_btn" onclick="cameraConfirm();">카메라 시작</button>
+    <button class="capture_btn" onclick="cameraCapture();">카메라 캡처</button>
 </div>
-    
+
+<canvas id="captureCanvas"></canvas>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
